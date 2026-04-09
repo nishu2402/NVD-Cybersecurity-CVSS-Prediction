@@ -12,12 +12,6 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:00E5FF,25:2E75B6,50:00FF88,75:FFE500,100:FF1493"/>
 </p>
 
-<p align="center">
-<strong>
-Master's Research Assignment — Applied Machine Learning (CMP7239) · Birmingham City University · 2025–26
-</strong>
-</p>
-
 ---
 
 <div align="center">
@@ -192,49 +186,8 @@ CVE Metadata (13 features) ──▶ ML Regression Model ──▶ Predicted CVS
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00FF88,50:427CBB,100:FFE500"/>
 </p>
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                     NVD CYBERSECURITY ML PIPELINE                   │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  1. DATA LOADING                                                    │
-│     └── Load NVD_Cybersecurity_Dataset.csv (337,705 records)        │
-│         └── Inspect: dtypes, nulls, statistics, severity dist.      │
-│                                                                     │
-│  2. EXPLORATORY DATA ANALYSIS (EDA) ──────────── 6 Figures          │
-│     ├── CVSS Base Score distribution (bimodal: 5.0 & 7.5)          │
-│     ├── Severity class pie chart (MEDIUM 44%, HIGH 36.6%)           │
-│     ├── CVE publications per year (2000–2026 trend)                 │
-│     ├── Attack-type flag counts                                     │
-│     ├── Average CVSS by severity (±1 SD)                            │
-│     └── Pearson correlation heatmap                                 │
-│                                                                     │
-│  3. FEATURE SELECTION ──────────────────────────── 6 Figures        │
-│     ├── Pearson Correlation         [Filter   — full 337k]          │
-│     ├── Mutual Information          [Filter   — 100k sample]        │
-│     ├── Chi-Square Test             [Filter   — 100k sample]        │
-│     ├── F-Regression / ANOVA        [Filter   — full 337k]          │
-│     ├── Recursive Feature Elim.     [Wrapper  — 100k sample]        │
-│     ├── Random Forest Importance    [Embedded — 100k sample]        │
-│     └── Multi-method comparison (heatmap + grouped bar)             │
-│                                                                     │
-│  4. MODEL TRAINING (80/20 split — 270,164 train / 67,541 test)      │
-│     ├── Linear Regression           (baseline)                      │
-│     ├── Decision Tree               (max_depth=8)                   │
-│     ├── Random Forest               (n=150, parallel)               │
-│     └── Gradient Boosting           (n=150, lr=0.10, sub=0.8)       │
-│                                                                     │
-│  5. EVALUATION ─────────────────────────────────── 4 Figures        │
-│     ├── MAE / RMSE / R² (test set)                                  │
-│     ├── 5-Fold Cross-Validation R²                                  │
-│     ├── Actual vs. Predicted scatter (4 models)                     │
-│     └── Residuals distribution (4 models)                           │
-│                                                                     │
-│  6. MODEL PERSISTENCE                                               │
-│     └── Save all 4 models as .pkl (joblib) + metadata.json          │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
+<img width="8192" height="1716" alt="pipeline" src="https://github.com/user-attachments/assets/6e06ca6b-2d51-44a2-9f05-8a2df115348b" />
+
 
 ---
 
@@ -250,7 +203,7 @@ Six complementary feature selection methods were applied. Using multiple methods
 ### Method 1 — Pearson Correlation `[Filter]`
 > Measures linear association between each feature and CVSS_Base_Score. Applied to the full 337,705-record dataset.
 
-| Top Features | |r|| Observation |
+| Top Features | r | Observation |
 |---|---|---|
 | Impact_Score | 0.797 | ⭐ Dominant linear predictor |
 | Exploitability_Score | 0.276 | Strong secondary predictor |
@@ -428,8 +381,8 @@ Why Gradient Boosting wins:
 ```
 NVD_CYBERSECURITY_CVSS_PREDICTION/
 │
-├── 📓 NVD_Cybersecurity_Colab.ipynb       ← Google Colab notebook (14 cells, fully documented)
-├── 🐍 nvd_cybersecurity_ml_final.py       ← Complete standalone Python pipeline script
+├── 📓 NVD_Cybersecurity.ipynb             ← Google Colab notebook (14 cells, fully documented)
+├── 🐍 nvd_cybersecurity.py                ← Complete standalone Python pipeline script
 │
 ├── 📊 output_figures/                     ← All 16 generated charts (PNG, 160 DPI)
 │   ├── fig01_cvss_distribution.png        ← Target variable distribution
@@ -452,7 +405,6 @@ NVD_CYBERSECURITY_CVSS_PREDICTION/
 └── 💾 saved_models/                       ← Trained model files (joblib)
     ├── model_linear_regression.pkl        ← Linear Regression     (  1 KB)
     ├── model_decision_tree.pkl            ← Decision Tree         ( 10 KB)
-    ├── model_random_forest.pkl            ← Random Forest         (81,661 KB)
     ├── model_gradient_boosting.pkl        ← Gradient Boosting ★  (126 KB)
     └── model_metadata.json                ← Training config + metrics
 ```
@@ -513,7 +465,7 @@ joblib>=1.2.0
 ### 4a. Run the Full Pipeline (Script)
 
 ```bash
-python nvd_cybersecurity_ml_final.py
+python nvd_cybersecurity.py
 ```
 
 **Expected output:**
@@ -611,17 +563,12 @@ print(f"Predicted CVSS Score: {predicted_cvss[0]:.2f}")
 - The CVSS predictions made by these models should **not** be used as a substitute for professional security assessments.
 - All CVE data is sourced from the publicly available [National Vulnerability Database (NVD)](https://nvd.nist.gov/), maintained by the U.S. National Institute of Standards and Technology (NIST).
 - The trained model files (`.pkl`) are provided for reproducibility purposes. Always verify model predictions against official NVD CVSS scores before making security decisions.
-- The `model_random_forest.pkl` file (~82 MB) may require [Git LFS](https://git-lfs.github.com/) to push to GitHub.
+- **The `model_random_forest.pkl` file (~82 MB). I can able to upload if you want contact me I'll share you**
 
 ---
 
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:05070F,20:0D1B2A,40:1F4E79,60:2E75B6,80:00E5FF,100:05070F&section=footer&text=Made%20with%20%F0%9F%94%90%20by%20Nisarg%20Chasmawala&fontSize=22&fontAlignY=65&fontColor=00E5FF&animation=twinkling"/>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Birmingham_City_University-CMP7239-1F4E79?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Student-25155511-2E75B6?style=for-the-badge&logo=id-card&logoColor=white"/>
 </p>
 
 <p align="center">
