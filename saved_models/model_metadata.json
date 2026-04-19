@@ -1,0 +1,86 @@
+{
+  "student": "Nisarg Chasmawala",
+  "student_id": "25155511",
+  "module": "CMP7239",
+  "dataset": "NVD_Cybersecurity_Dataset.csv",
+  "n_records": 337705,
+  "n_train": 270164,
+  "n_test": 67541,
+  "features": [
+    "Exploitability_Score",
+    "Impact_Score",
+    "Word_Count",
+    "Char_Length",
+    "Publish_Year",
+    "Publish_Month",
+    "Flag_XSS",
+    "Flag_SQLi",
+    "Flag_Buffer_Overflow",
+    "Flag_RCE",
+    "Flag_Privilege_Escalation",
+    "Flag_DoS",
+    "Flag_Directory_Traversal"
+  ],
+  "target": "CVSS_Base_Score",
+  "split": "80/20",
+  "random_state": 42,
+  "ml_results": {
+    "Decision Tree": {
+      "MAE": 0.0287,
+      "RMSE": 0.0829,
+      "R2": 0.9988,
+      "CV_mean": 0.9988,
+      "CV_std": 0.0003
+    },
+    "AdaBoost": {
+      "MAE": 0.4197,
+      "RMSE": 0.5195,
+      "R2": 0.9538,
+      "CV_mean": 0.9329,
+      "CV_std": 0.0021
+    },
+    "Gradient Boosting": {
+      "MAE": 0.0397,
+      "RMSE": 0.0968,
+      "R2": 0.9984,
+      "CV_mean": 0.9969,
+      "CV_std": 0.0002
+    },
+    "Extra Trees": {
+      "MAE": 0.04,
+      "RMSE": 0.0821,
+      "R2": 0.9988,
+      "CV_mean": 0.999,
+      "CV_std": 0.0001
+    }
+  },
+  "dl_results": {
+    "LSTM": {
+      "MAE": 0.0724,
+      "RMSE": 0.1426,
+      "R2": 0.9965
+    },
+    "GRU": {
+      "MAE": 0.047,
+      "RMSE": 0.1111,
+      "R2": 0.9979
+    }
+  },
+  "feature_selection": {
+    "lasso_alpha": 0.000427,
+    "en_alpha": 0.000855,
+    "en_l1_ratio": 0.5,
+    "lasso_nonzero": 12,
+    "en_nonzero": 12,
+    "rfe_selected": [
+      "Exploitability_Score",
+      "Impact_Score",
+      "Word_Count",
+      "Char_Length",
+      "Publish_Year",
+      "Flag_XSS",
+      "Flag_SQLi",
+      "Flag_Directory_Traversal"
+    ]
+  }
+}
