@@ -215,8 +215,8 @@ Raw NVD CSV (337,705 records × 19 features)
  │ GB · ET ★  │  │    ★ GRU   │
  └─────┬──────┘  └──────┬─────┘
        │                │
-       └────────┬───────┘
-                ▼
+       └───────┬────────┘
+               ▼
      Evaluation: MAE · RMSE · R² · 5-Fold CV
      23 Publication-Quality Figures Generated
      All 6 Models + Scalers Persisted via joblib
