@@ -113,6 +113,8 @@ The complete dataset of **337,705 CVE records** (spanning 1988–2026) was used 
 
 </div>
 
+<img width="1022" height="518" alt="wallpaper" src="https://github.com/user-attachments/assets/6ed0057e-cced-422e-acac-36e9766b0dc2" />
+
 ---
 
 <a id="core-idea"></a>
