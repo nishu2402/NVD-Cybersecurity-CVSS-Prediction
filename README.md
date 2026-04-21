@@ -109,6 +109,7 @@ The complete dataset of **337,705 CVE records** (spanning 1988–2026) was used 
 | 🧠 **Best DL R²** | 0.9979 (GRU) |
 | 🗓️ **Coverage** | 1988 – 2026 (38 years) |
 | ✅ **Missing Values** | Zero — dataset 100% complete |
+| ℹ️ **kaggle-link** | [click to download data-set](https://www.kaggle.com/datasets/nisargshroff2402/nvd-cybersecurity-dataset) |
 
 </div>
 
