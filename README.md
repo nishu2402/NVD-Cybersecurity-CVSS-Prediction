@@ -1,7 +1,7 @@
 # 🔐 NVD CYBERSECURITY — CVSS SEVERITY PREDICTION
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:05070F,15:0D1B2A,30:1F4E79,45:2E75B6,60:00E5FF,75:00FF88,90:FFE500,100:05070F&text=CYBERSECURITY%20SEVERITY%20PREDICTION&fontSize=40&fontAlignY=38&fontColor=ffffff&animation=twinkling&desc=Supervised%20ML%20%26%20DL%20Regression%20on%20337%2C705%20NVD%20CVE%20Records&descAlignY=65&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:05070F,15:0D1B2A,30:1F4E79,45:2E75B6,60:00E5FF,75:00FF88,90:FFE500,100:05070F&text=CYBERSECURITY%20SEVERITY%20PREDICTION&fontSize=40&fontAlignY=38&fontColor=ffffff&animation=twinkling&desc=Supervised%20ML%20and%20DL%20Regression%20on%20337%2C705%20NVD%20CVE%20Records&descAlignY=65&descSize=18"/>
 </p>
 
 <p align="center">
