@@ -158,6 +158,7 @@ CVE Metadata (13 features) ──▶ Feature Selection (6 methods) ──▶ ML 
 | **Coverage** | 1988 – 2026 (38 years) |
 | **Missing Values** | None — 100% complete |
 | **File Size** | ~340 MB |
+| **kaggle-link** | [click to download data-set](https://www.kaggle.com/datasets/nisargshroff2402/nvd-cybersecurity-dataset) |
 
 ### 📊 Feature Breakdown
 
@@ -192,8 +193,8 @@ CVE Metadata (13 features) ──▶ Feature Selection (6 methods) ──▶ ML 
 
 ```
 Raw NVD CSV (337,705 records × 19 features)
-        │
-        ▼
+              │
+              ▼
 ┌─────────────────────────────┐
 │  EDA & Preprocessing        │  → 6 figures · zero nulls · dtype validation
 │  80 / 20 Train-Test Split   │  → 270,164 train · 67,541 test · seed=42
@@ -210,11 +211,11 @@ Raw NVD CSV (337,705 records × 19 features)
         ▼            ▼
  ┌────────────┐  ┌────────────┐
  │ 4 ML Models│  │ 2 DL Models│
- │ DT · AB   │  │ LSTM · GRU │
+ │ DT · AB    │  │ LSTM · GRU │
  │ GB · ET ★  │  │    ★ GRU   │
  └─────┬──────┘  └──────┬─────┘
        │                │
-       └────────┬────────┘
+       └────────┬───────┘
                 ▼
      Evaluation: MAE · RMSE · R² · 5-Fold CV
      23 Publication-Quality Figures Generated
@@ -456,23 +457,18 @@ Why GRU wins (DL):
 ```
 NVD_CYBERSECURITY_CVSS_PREDICTION/
 │
-├── 📓 NVD_Cybersecurity_Colab.ipynb       ← Google Colab notebook (48 cells, fully executed)
+├── 📓 NVD_Cybersecurity.ipynb             ← Google Colab notebook (14 cells, fully documented)
 │
-├── 📄 NVD_Assignment_FINAL.docx           ← Publication-level academic report (21 pages)
-│
-├── 🎞️ NVD_HEAVEN_Presentation.pptx        ← 17-slide cyberpunk HUD presentation
+├── 🐍 nvd_cybersecurity.py                ← Complete standalone Python pipeline script
 │
 ├── 📊 output_figures/                     ← All 23 publication-quality figures (PNG, 150 DPI)
 │   │
-│   ├── ── EDA FIGURES ────────────────────────────────────────
 │   ├── fig01_cvss_distribution.png        ← CVSS Base Score histogram (bimodal at 5.0 & 7.5)
 │   ├── fig02_severity_pie.png             ← Severity class proportions (MEDIUM 44%, HIGH 36.6%)
 │   ├── fig03_cves_per_year.png            ← CVE temporal growth 2000–2026 (exponential)
 │   ├── fig04_attack_flags.png             ← Attack-type binary flag counts
 │   ├── fig05_avg_cvss_severity.png        ← Mean CVSS ±1 SD per severity category
 │   ├── fig06_correlation_heatmap.png      ← Pearson correlation matrix (13 features + target)
-│   │
-│   ├── ── FEATURE SELECTION FIGURES ──────────────────────────
 │   ├── fig07_mutual_information.png       ← MI scores (Exploit.Score 1.911 > Impact_Score 1.835)
 │   ├── fig08_chi_square.png               ← Chi-Square — all 13 features p < 0.001
 │   ├── fig09_f_regression.png             ← F-Regression — Impact_Score F=588,435
@@ -481,21 +477,18 @@ NVD_CYBERSECURITY_CVSS_PREDICTION/
 │   ├── fig12_fs_grouped_bar.png           ← Grouped bar comparison across 4 key methods
 │   ├── fig13_pca_scree.png                ← PCA scree — 95% variance needs 11 components
 │   ├── fig14_rfe_ranking.png              ← RFE feature rankings (top 8 selected)
-│   │
-│   ├── ── ML RESULTS FIGURES ─────────────────────────────────
 │   ├── fig15_ml_comparison.png            ← MAE · RMSE · R² bar charts — 4 ML models
 │   ├── fig16_avp_ml.png                   ← Actual vs Predicted scatter (2×2 grid)
 │   ├── fig17_residuals_ml.png             ← Residual distributions — 4 ML models
 │   ├── fig18_cv_results.png               ← 5-Fold CV R² with error bars
 │   ├── fig19_et_importance.png            ← Extra Trees Gini feature importance
-│   │
-│   └── ── DL RESULTS FIGURES ─────────────────────────────────
-│       ├── fig20_dl_training_loss.png     ← LSTM & GRU MSE loss per iteration
-│       ├── fig21_avp_dl.png               ← Actual vs Predicted — LSTM & GRU
-│       ├── fig22_residuals_dl.png         ← Residual distributions — LSTM & GRU
-│       └── fig23_all_models_comparison.png← All 6 algorithms — MAE · RMSE · R² final
+│   ├──fig20_dl_training_loss.png     ← LSTM & GRU MSE loss per iteration
+│   ├──fig21_avp_dl.png               ← Actual vs Predicted — LSTM & GRU
+│   ├──fig22_residuals_dl.png         ← Residual distributions — LSTM & GRU
+│   ├──fig23_all_models_comparison.png← All 6 algorithms — MAE · RMSE · R² final
 │
 └── 💾 saved_models/                       ← All 6 trained models + scalers + metadata
+    │
     ├── model_decision_tree.pkl            ← Decision Tree         (  10 KB)
     ├── model_adaboost.pkl                 ← AdaBoost              ( ~50 KB)
     ├── model_gradient_boosting.pkl        ← Gradient Boosting     ( 126 KB)
@@ -648,7 +641,7 @@ print(f"GRU Predicted CVSS:   {pred_gru[0]:.2f}")
 - The CVSS predictions made by these models should **not** be used as a substitute for professional security assessments.
 - All CVE data is sourced from the publicly available [National Vulnerability Database (NVD)](https://nvd.nist.gov/), maintained by the U.S. National Institute of Standards and Technology (NIST).
 - The trained model files (`.pkl`) are provided for reproducibility purposes. Always verify model predictions against official NVD CVSS scores before making security decisions.
-- The dataset file (`NVD_Cybersecurity_Dataset.csv`, ~340 MB) is **not included** in this repository. Contact via GitHub Issues if you need access.
+- The dataset file (`NVD_Cybersecurity_Dataset.csv`, ~340 MB) is **not included** in this repository. Contact via GitHub Issues if you need access. [click to download data-set](https://www.kaggle.com/datasets/nisargshroff2402/nvd-cybersecurity-dataset).
 
 ---
 
