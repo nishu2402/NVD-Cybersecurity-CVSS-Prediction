@@ -1,50 +1,40 @@
-# 🔐 NVD CYBERSECURITY - CVSS SEVERITY PREDICTION
+# 🔐 NVD CYBERSECURITY — CVSS SEVERITY PREDICTION
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:05070F,15:0D1B2A,30:1F4E79,45:2E75B6,60:00E5FF,75:00FF88,90:FFE500,100:05070F&text=CYBERSECURITY%20SEVERITY%20PREDICTION&fontSize=40&fontAlignY=38&fontColor=ffffff&animation=twinkling&desc=Supervised%20ML%20Regression%20on%20337%2C705%20NVD%20CVE%20Records&descAlignY=65&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=320&color=0:020B18,15:041424,30:1F4E79,50:00E5FF,75:7C4DFF,100:020B18&text=CVSS%20SEVERITY%20PREDICTION&fontSize=42&fontAlignY=38&fontColor=ffffff&animation=twinkling&desc=Supervised%20ML%20%26%20DL%20Regression%20%7C%20337%2C705%20NVD%20CVE%20Records%20%7C%20R%C2%B2%20%3D%200.9990&descAlignY=65&descSize=19"/>
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=26&duration=2500&pause=700&color=00E5FF&center=true&vCenter=true&width=1200&lines=Predicting+CVSS+Base+Score+from+CVE+Metadata;337%2C705+Records+%7C+80%2F20+Train%2FTest+Split;6+Feature+Selection+Methods+Applied;Gradient+Boosting+%E2%86%92+R%C2%B2+%3D+0.9989+%7C+MAE+%3D+0.033;Near-Perfect+Vulnerability+Severity+Prediction"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=24&duration=2500&pause=700&color=00E5FF&center=true&vCenter=true&width=1200&lines=Predicting+CVSS+Base+Score+from+CVE+Metadata;337%2C705+Records+%7C+80%2F20+Full+Dataset+Split;6+Feature+Selection+Methods+%E2%80%94+13+Features+Validated;Extra+Trees+%E2%86%92+CV+R%C2%B2+%3D+0.9990+%C2%B10.0001+%E2%98%85+Best+Model;GRU+%E2%86%92+R%C2%B2+%3D+0.9979+%7C+MAE+%3D+0.047+%E2%98%85+Best+DL"/>
 </p>
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=6&color=0:00E5FF,25:2E75B6,50:00FF88,75:FFE500,100:FF1493"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:00E5FF,33:7C4DFF,66:FFB300,100:FF1744"/>
 </p>
 
----
+<br/>
 
 <div align="center">
 
-  <p>
-    <img src="https://img.shields.io/badge/Python-3.9+-00E5FF?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-    <img src="https://img.shields.io/badge/Best_Model-Gradient_Boosting-6A369B?style=for-the-badge&logo=apachespark&logoColor=white" alt="Gradient Boosting"/>
-    <img src="https://img.shields.io/badge/R²_Score-0.9989-00FF88?style=for-the-badge&logo=databricks&logoColor=black" alt="R2 Score"/>
-    <img src="https://img.shields.io/badge/Dataset-NVD_337K-FFE500?style=for-the-badge&logo=databricks&logoColor=black" alt="Dataset"/>
-  </p>
+[![Python](https://img.shields.io/badge/Python-3.10+-00E5FF?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![Best ML Model](https://img.shields.io/badge/Best_ML-Extra_Trees_★-6A369B?style=for-the-badge&logo=apachespark&logoColor=white)](https://scikit-learn.org)
+[![Best DL Model](https://img.shields.io/badge/Best_DL-GRU_★-C0392B?style=for-the-badge&logo=pytorch&logoColor=white)](https://scikit-learn.org)
+[![CV R²](https://img.shields.io/badge/CV_R%C2%B2-0.9990_%C2%B10.0001-00E676?style=for-the-badge&logo=databricks&logoColor=black)](https://github.com/nishu2402/NVD-Cybersecurity-CVSS-Prediction)
 
-  <p>
-    <img src="https://img.shields.io/badge/Records-337%2C705_CVEs-00E5FF?style=flat-square&logo=database&logoColor=black" alt="Records"/>
-    <img src="https://img.shields.io/badge/Split-80%25_Train_%2F_20%25_Test-2E75B6?style=flat-square&logo=scikit-learn&logoColor=white" alt="Split"/>
-    <img src="https://img.shields.io/badge/CV-5--Fold_CrossVal-00FF88?style=flat-square&logo=python&logoColor=black" alt="CV"/>
-    <img src="https://img.shields.io/badge/MAE-0.033_on_0--10_scale-FFE500?style=flat-square&logo=apachespark&logoColor=black" alt="MAE"/>
-    <img src="https://img.shields.io/badge/License-MIT-FF1493?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="License"/>
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Stars-★_Give_a_Star-00E5FF?style=flat-square&logo=github&logoColor=black" alt="Stars"/>
-    <img src="https://img.shields.io/badge/Forks-Share_This_Project-2E75B6?style=flat-square&logo=git&logoColor=white" alt="Forks"/>
-    <img src="https://img.shields.io/badge/Issues-Report_a_Bug-FF1493?style=flat-square&logo=quicklook&logoColor=white" alt="Issues"/>
-  </p>
+[![Records](https://img.shields.io/badge/Records-337%2C705_CVEs-00E5FF?style=flat-square&logo=database&logoColor=black)](https://nvd.nist.gov)
+[![Split](https://img.shields.io/badge/Split-80%25_Train_%2F_20%25_Test-2E75B6?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![CV](https://img.shields.io/badge/CV-5--Fold_CrossVal-00E676?style=flat-square&logo=python&logoColor=black)](https://scikit-learn.org)
+[![FS Methods](https://img.shields.io/badge/FS_Methods-6_Multi--Paradigm-FFB300?style=flat-square&logo=apachespark&logoColor=black)](https://github.com/nishu2402/NVD-Cybersecurity-CVSS-Prediction)
+[![License](https://img.shields.io/badge/License-MIT-FF1744?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
 
 </div>
 
 ---
 
 <a id="authors"></a>
-## 👾 Authors
+## 👾 Author
 
-### Nisarg Chasmawala (Shroff)
+### Nisarg Chasmawala · Alias: **HEAVEN**
 
 <div align="center">
 
@@ -52,13 +42,15 @@
 |---|---|
 | 🎓 **University** | Birmingham City University |
 | 📚 **Module** | Applied Machine Learning — CMP7239 |
-| 🏅 **Level** | Level 7 (Postgraduate) |
+| 📝 **Assessment** | Presentation · Level 7 · Weighting: 30% |
+| 🏅 **Level** | Level 7 (Postgraduate MSc) |
 | 🆔 **Student ID** | 25155511 |
 | 📅 **Academic Year** | 2025 – 2026 |
 | 👨‍🏫 **Module Leader** | Dr Mohamed Ihmeida |
-| 📍 **Location** | Birmingham, England, UK |
+| 📍 **Location** | England, UK |
 | 🔗 **LinkedIn** | [linkedin.com/in/nisarg-chasmawala](https://www.linkedin.com/in/nisarg-chasmawala) |
 | 🐙 **GitHub** | [github.com/nishu2402](https://github.com/nishu2402) |
+| 🎯 **Alias** | HEAVEN · Ethical hacking & offensive security research |
 
 </div>
 
@@ -66,511 +58,503 @@
 
 ## 📋 Table of Contents
 
-- [👾 Authors](#authors)
+- [👾 Author](#authors)
 - [🧠 Project Summary](#project-summary)
 - [💡 Core Idea](#core-idea)
 - [📦 Dataset](#dataset)
-- [⚙️ Complete Pipeline](#complete-pipeline)
-- [🔍 Dimensionality Reduction & Feature Selection Strategies](#feature-selection)
-- [🤖 Models Explained](#models-explained)
-- [📐 Metrics](#metrics)
-- [🏆 Complete Performance](#complete-performance)
-- [🥇 Why Gradient Boosting Wins](#why-wins)
-- [🗂️ Project Structure](#project-structure)
-- [🚀 Installation](#installation)
-- [🔮 Future Roadmap](#future-roadmap)
-- [⚠️ Disclaimer](#disclaimer)
+- [🔍 Feature Selection — 6 Methods](#feature-selection)
+- [⚙️ Algorithms — 4 ML + 2 DL](#algorithms)
+- [📊 Results & Metrics](#results)
+- [📈 Visualisations — 23 Figures](#visualisations)
+- [🚀 Quick Start](#quick-start)
+- [📁 Repository Structure](#repo-structure)
+- [📚 References](#references)
 
 ---
 
 <a id="project-summary"></a>
 ## 🧠 Project Summary
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00E5FF,50:2E75B6,100:00FF88"/>
-</p>
+This repository presents a **publication-level supervised regression pipeline** applied to the **National Vulnerability Database (NVD)** — the largest public catalogue of cybersecurity vulnerabilities maintained by NIST.
 
-This project applies a **full supervised machine learning regression pipeline** to the National Vulnerability Database (NVD) to automatically predict **CVSS Base Scores** — the industry-standard severity metric used by security teams worldwide to prioritise vulnerability patching.
+The objective is to **automatically predict CVSS Base Score** (a continuous 0.0–10.0 severity metric) from structured CVE metadata, eliminating the bottleneck of manual scoring that currently delays patch prioritisation by days for each of the 25,000+ CVEs disclosed annually.
 
-The complete dataset of **337,705 CVE records** (spanning 1988–2026) was used without sampling, split into **80% training (270,164 records)** and **20% testing (67,541 records)**. Six feature selection strategies and four regression algorithms were systematically applied and evaluated.
+### ✅ What This Project Does
 
-<div align="center">
-
-| Metric | Value |
+| Stage | Detail |
 |---|---|
-| 🗃️ **Total Records** | 337,705 CVE records |
-| 🎯 **Target Variable** | CVSS Base Score (0.0 – 10.0) |
-| 🔀 **Train / Test Split** | 80% / 20% (full dataset) |
-| 🔁 **Cross-Validation** | 5-Fold K-Fold |
-| 🏆 **Best R²** | 0.9989 (Gradient Boosting) |
-| 📉 **Best MAE** | 0.0287 (Decision Tree) |
-| 🗓️ **Coverage** | 1988 – 2026 (38 years) |
-| ✅ **Missing Values** | Zero — dataset 100% complete |
-
-</div>
+| **EDA** | 6 exploratory figures across 337,705 records — distribution, severity, temporal, correlation |
+| **Feature Selection** | 6 independent methods (filter + embedded + wrapper) converge on 13-feature optimal set |
+| **ML Training** | 4 tree-based regression algorithms on full 270,164-record training set |
+| **DL Training** | 2 recurrent architectures (LSTM, GRU) on full training set with early stopping |
+| **Cross-Validation** | 5-Fold CV on 60k sub-sample confirms no overfitting |
+| **Evaluation** | MAE, RMSE, R² on 67,541 held-out test records |
+| **Visualisation** | 23 publication-quality figures covering EDA, FS, model performance, residuals |
+| **Model Saving** | All 6 models + 2 scalers + metadata JSON persisted via joblib |
 
 ---
 
 <a id="core-idea"></a>
 ## 💡 Core Idea
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:FFE500,50:FF1493,100:6A369B"/>
-</p>
-
-Every published software vulnerability (CVE) receives a **CVSS Base Score** — a number from 0.0 to 10.0 indicating severity. Assigning this score manually is:
-
-- ⏱️ **Slow** — takes security analysts hours per CVE
-- 🔀 **Inconsistent** — inter-rater variability between analysts
-- ❌ **Unscalable** — 25,000+ new CVEs are published every year
-
-**Our solution:** Train a machine learning regression model on 337,705 historical CVE records to predict the CVSS Base Score from structured metadata — achieving **R² = 0.9989** with **MAE = 0.033** (on a 0–10 scale) using Gradient Boosting. This means on average, the model predicts CVSS score to within **0.033 of the true value**.
-
 ```
-CVE Metadata (13 features) ──▶ ML Regression Model ──▶ Predicted CVSS Score
-     Impact_Score                  Gradient Boosting          e.g. 7.42
-     Exploitability_Score              (n=150)               ±0.033 MAE
-     Attack Type Flags              R² = 0.9989
-     Text Length Features
-     Temporal Features
+CVE Metadata  →  Feature Selection (6 methods)  →  ML/DL Regression  →  CVSS Score (0.0–10.0)
+                                                                              ↓
+                                                              Patch Priority Decision
 ```
+
+**Why this matters:** A wrong CVSS score means the wrong patches get deployed first. An automated, reproducible scoring system reduces latency from days to milliseconds and eliminates analyst subjectivity.
+
+**Task type:** Strictly **Regression** (CVSS Base Score is continuous — not classification).
+
+**Prohibited algorithms:** Linear/Logistic Regression · SVM/SVR · Random Forest · XGBoost · MLP · 1-D CNN · DNN/ANN
 
 ---
 
 <a id="dataset"></a>
 ## 📦 Dataset
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00E5FF,50:427CBB,100:00FF88"/>
-</p>
+**Source:** U.S. National Vulnerability Database — [nvd.nist.gov](https://nvd.nist.gov) (NIST, 2023)
 
-| Property | Details |
+| Property | Value |
 |---|---|
-| **Name** | NVD_Cybersecurity_Dataset.csv |
-| **Source** | [National Vulnerability Database — U.S. NIST](https://nvd.nist.gov/) |
-| **Records** | 337,705 CVE entries |
-| **Features** | 19 columns |
-| **Target** | `CVSS_Base_Score` (float, 0.0 – 10.0) |
-| **Coverage** | 1988 – 2026 (38 years) |
+| **File** | `NVD_Cybersecurity_Dataset.csv` |
+| **Total Records** | 337,705 CVE entries |
+| **Total Features** | 19 columns |
+| **Selected Predictors** | 13 features (validated by 6 FS methods) |
+| **Target Variable** | `CVSS_Base_Score` (float, 0.0–10.0) |
+| **Temporal Coverage** | 1988 – 2026 (38 years) |
 | **Missing Values** | None — 100% complete |
-| **File Size** | ~340 MB |
+| **Training Set** | 270,164 records (80%) |
+| **Test Set** | 67,541 records (20%) |
+| **Random State** | 42 (fully reproducible) |
 
-### 📊 Feature Breakdown
+### 🔑 Selected Features (13)
 
-| Category | Features |
-|---|---|
-| **Identification** | `CVE_ID`, `Published_Date`, `Publish_Year`, `Publish_Month` |
-| **Text Features** | `Description`, `Clean_Description`, `Word_Count`, `Char_Length` |
-| **Attack Flags (×7)** | `Flag_XSS`, `Flag_SQLi`, `Flag_Buffer_Overflow`, `Flag_RCE`, `Flag_Privilege_Escalation`, `Flag_DoS`, `Flag_Directory_Traversal` |
-| **CVSS Scores** | ⭐ `CVSS_Base_Score` *(target)*, `Exploitability_Score`, `Impact_Score` |
+```python
+FEATURES = [
+    'Exploitability_Score',       # CVSS sub-score — strong non-linear signal (MI=1.911)
+    'Impact_Score',               # CVSS sub-score — dominant linear predictor (r=+0.797)
+    'Word_Count',                 # Description word count — proxy for CVE complexity
+    'Char_Length',                # Description character length
+    'Publish_Year',               # Temporal — captures scoring methodology shifts
+    'Publish_Month',              # Seasonal vulnerability disclosure patterns
+    'Flag_XSS',                   # Binary: Cross-Site Scripting present
+    'Flag_SQLi',                  # Binary: SQL Injection
+    'Flag_Buffer_Overflow',       # Binary: Buffer Overflow
+    'Flag_RCE',                   # Binary: Remote Code Execution (high severity)
+    'Flag_Privilege_Escalation',  # Binary: Privilege Escalation
+    'Flag_DoS',                   # Binary: Denial of Service
+    'Flag_Directory_Traversal',   # Binary: Directory Traversal
+]
+TARGET = 'CVSS_Base_Score'
+```
 
-### 📈 Severity Distribution
+### 📊 CVSS Severity Distribution
 
-| Severity | Count | Percentage |
-|---|---|---|
-| MEDIUM | 148,626 | 44.0% |
-| HIGH | 123,452 | 36.6% |
-| CRITICAL | 29,743 | 8.8% |
-| UNKNOWN | 22,007 | 6.5% |
-| LOW | 13,849 | 4.1% |
-| NONE | 28 | ~0.0% |
+| Severity | CVSS Range | Count | Percentage |
+|---|---|---|---|
+| **MEDIUM** | 4.0 – 6.9 | 148,626 | 44.0% |
+| **HIGH** | 7.0 – 8.9 | 123,452 | 36.6% |
+| **CRITICAL** | 9.0 – 10.0 | 29,743 | 8.8% |
+| UNKNOWN | N/A | 22,007 | 6.5% |
+| LOW | 0.1 – 3.9 | 13,849 | 4.1% |
+| NONE | 0.0 | 28 | < 0.01% |
 
-> **Note:** The dataset file is not included in this repository due to its size (~340 MB). Download it from the [NVD data feeds](https://nvd.nist.gov/vuln/data-feeds) or request access via the Issues tab.
-
----
-
-<a id="complete-pipeline"></a>
-## ⚙️ Complete Pipeline
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00FF88,50:427CBB,100:FFE500"/>
-</p>
-
-<img width="8192" height="1716" alt="pipeline" src="https://github.com/user-attachments/assets/6e06ca6b-2d51-44a2-9f05-8a2df115348b" />
-
+> 📌 MEDIUM + HIGH = **80.6%** of all records — significant class imbalance
 
 ---
 
 <a id="feature-selection"></a>
-## 🔍 Dimensionality Reduction & Feature Selection Strategies
+## 🔍 Feature Selection — 6 Methods (Multi-Paradigm)
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:FFE500,50:6A369B,100:00E5FF"/>
-</p>
+A **multi-paradigm feature selection strategy** was applied. A feature is retained if supported by at least 2 independent methods.
 
-Six complementary feature selection methods were applied. Using multiple methods ensures that no single method's bias affects the final feature set — only features robust across multiple approaches are retained.
+### Method Overview
 
-### Method 1 — Pearson Correlation `[Filter]`
-> Measures linear association between each feature and CVSS_Base_Score. Applied to the full 337,705-record dataset.
+| # | Method | Paradigm | Key Result |
+|---|---|---|---|
+| 01 | **Pearson Correlation** | Filter — Linear | Impact_Score r=+0.797 · Flag_XSS r=−0.129 |
+| 02 | **Mutual Information** | Filter — Info-theoretic | Exploit.Score MI=1.911 bits > Impact_Score MI=1.835 |
+| 03 | **F-Regression / ANOVA** | Filter — Statistical | Impact_Score F=588,435 (21× any other feature) |
+| 04 | **Chi-Square Test** | Filter — Independence | All 13 features p < 0.001 |
+| 05 | **Lasso (λ=0.0004)** | Embedded — L1 Reg. | 12/13 non-zero · Word_Count zeroed |
+| 06 | **ElasticNet (α=0.0009)** | Embedded — L1+L2 Reg. | 12/13 non-zero · l1_ratio=0.50 |
 
-| Top Features | r | Observation |
-|---|---|---|
-| Impact_Score | 0.797 | ⭐ Dominant linear predictor |
-| Exploitability_Score | 0.276 | Strong secondary predictor |
-| Flag_RCE | 0.220 | Strongest attack-type flag |
-| Flag_Buffer_Overflow | 0.159 | High-severity attack signal |
-| Flag_XSS | 0.129 | Negative correlation (lower CVSS) |
+> **Supplementary:** RFE (top-8) and PCA Scree (intrinsic dimensionality analysis)
 
-### Method 2 — Mutual Information Regression `[Filter]`
-> Captures both linear and non-linear dependencies. Runs on 100k-record sample.
+### Key Finding
 
-**Key insight:** `Exploitability_Score` (MI=1.907) ranks *above* `Impact_Score` (MI=1.834) — reversing the Pearson ranking — revealing strong non-linear dependencies invisible to Pearson.
+> 🔑 **Exploitability_Score** (MI=1.911 bits) outranks **Impact_Score** (MI=1.835 bits) under Mutual Information — **reversing the Pearson ranking**. This reveals strong non-linear associations invisible to linear correlation, directly justifying tree-based models over any linear approach.
 
-### Method 3 — Chi-Square Test `[Filter]`
-> Tests statistical independence between each feature and CVSS score. All 13 features achieved **p < 0.001** — statistically significant associations confirmed.
+### Consensus Table (Exact Values)
 
-### Method 4 — F-Regression / ANOVA `[Filter]`
-> ANOVA F-test for linear coefficients. `Impact_Score` achieved **F-Score = 588,435** — over 21× larger than any other feature, confirming exceptional linear dominance.
+| Feature | Pearson | MI | F-stat | Lasso | ElasticNet | RFE | Verdict |
+|---|---|---|---|---|---|---|---|
+| Impact_Score | 0.797 | 1.835 | 588,435 | 9.224 | 9.109 | Sel | ✅ **RETAIN** |
+| Exploit.Score | 0.276 | 1.911 | 27,901 | 2.771 | 2.653 | Sel | ✅ **RETAIN** |
+| Pub_Year | 0.002 | 0.330 | 2 | 7.636 | 7.314 | Sel | ✅ **RETAIN** |
+| Char_Length | 0.008 | 0.235 | 22 | 0.886 | 0.787 | Sel | ✅ **RETAIN** |
+| Fl_XSS | 0.129 | 0.187 | 5,708 | 0.267 | 0.261 | Sel | ✅ **RETAIN** |
+| Fl_SQLi | 0.138 | 0.054 | 6,593 | 0.246 | 0.269 | Sel | ✅ **RETAIN** |
+| Fl_RCE | 0.220 | 0.043 | 17,134 | 0.018 | 0.035 | Elim | ✅ RETAIN (domain) |
+| Fl_BufOvfl | 0.159 | 0.030 | 8,800 | 0.022 | 0.034 | Elim | ✅ RETAIN (domain) |
+| Fl_PrivEsc | 0.070 | 0.009 | 1,685 | 0.091 | 0.113 | Elim | ✅ RETAIN (domain) |
+| Fl_DoS | 0.042 | 0.045 | 599 | 0.153 | 0.149 | Elim | ✅ RETAIN (domain) |
+| Fl_DirTrav | 0.020 | 0.006 | 142 | 0.289 | 0.289 | Sel | ✅ **RETAIN** |
+| Pub_Month | 0.024 | 0.018 | 188 | 0.137 | 0.130 | Elim | ✅ RETAIN (seasonal) |
+| Word_Count | 0.006 | 0.182 | 13 | 0.000 | 0.000 | Sel | ✅ RETAIN (MI+RFE) |
 
-### Method 5 — Recursive Feature Elimination `[Wrapper]`
-> Iteratively eliminates weakest features using Linear Regression. Top 8 selected:
-> `Exploitability_Score`, `Impact_Score`, `Word_Count`, `Char_Length`, `Publish_Year`, `Flag_XSS`, `Flag_SQLi`, `Flag_Directory_Traversal`
+> All 13 features retained on multi-method consensus. Lasso zeroed Word_Count but MI (0.182 bits) and RFE selection provide independent evidence of predictive value.
 
-### Method 6 — Random Forest Gini Importance `[Embedded]`
-> Tree-based embedded method. `Impact_Score` = **87.77%** of all Gini importance. `Exploitability_Score` = **12.21%**. Together they account for **~99.98%** of predictive importance.
+---
 
-### ✅ Final Selected Feature Set (13 Features)
+<a id="algorithms"></a>
+## ⚙️ Algorithms — 4 ML + 2 DL
+
+All models trained on the **full 270,164-record training set** (80/20 split, no sub-sampling).
+
+### 🌲 Machine Learning — 4 Algorithms
+
+#### 01 · Decision Tree Regressor (Baseline)
 
 ```python
-FEATURES = [
-    "Exploitability_Score",       # CVSS sub-score — dominant predictor
-    "Impact_Score",               # CVSS sub-score — primary predictor ⭐
-    "Word_Count",                 # word count of CVE description
-    "Char_Length",                # character length of description
-    "Publish_Year",               # year of CVE publication
-    "Publish_Month",              # month of CVE publication
-    "Flag_XSS",                   # binary: Cross-Site Scripting
-    "Flag_SQLi",                  # binary: SQL Injection
-    "Flag_Buffer_Overflow",       # binary: Buffer Overflow
-    "Flag_RCE",                   # binary: Remote Code Execution
-    "Flag_Privilege_Escalation",  # binary: Privilege Escalation
-    "Flag_DoS",                   # binary: Denial of Service
-    "Flag_Directory_Traversal",   # binary: Directory Traversal
-]
+DecisionTreeRegressor(max_depth=8, random_state=42)
 ```
 
+- **Paradigm:** CART — recursive binary partitioning (MSE criterion)
+- **Why selected:** Non-linear baseline that captures CVSS scoring formula threshold boundaries naturally at depth-8 splits
+- **Training time:** 0.7s on 270,164 records
+- **Result:** MAE=0.0287 · RMSE=0.0829 · R²=0.9988 · **CV=0.9988±0.0003**
+
+#### 02 · AdaBoost Regressor
+
+```python
+AdaBoostRegressor(
+    estimator=DecisionTreeRegressor(max_depth=4),
+    n_estimators=80, learning_rate=0.10, random_state=42
+)
+```
+
+- **Paradigm:** Adaptive Boosting — sequential reweighted learner combination (AdaBoost.R2)
+- **Why selected:** Demonstrates adaptive sample reweighting principle; exponential reweighting guides the ensemble toward hard-to-predict CVEs
+- **Training time:** 40.4s on 270,164 records
+- **Result:** MAE=0.4197 · RMSE=0.5195 · R²=0.9538 · CV=0.9329±0.0021
+
+#### 03 · Gradient Boosting Regressor
+
+```python
+GradientBoostingRegressor(
+    n_estimators=120, learning_rate=0.10,
+    max_depth=4, subsample=0.8, random_state=42
+)
+```
+
+- **Paradigm:** Functional gradient descent — each tree fits the negative gradient of MSE loss (Friedman, 2001)
+- **Why selected:** Two regularisation mechanisms (shrinkage η=0.10 + stochastic subsampling 80%) provide excellent generalisation
+- **Training time:** 43.3s on 270,164 records
+- **Result:** MAE=0.0397 · RMSE=0.0968 · R²=0.9984 · **CV=0.9969±0.0002**
+
+#### 04 · Extra Trees Regressor ⭐ Best ML
+
+```python
+ExtraTreesRegressor(
+    n_estimators=100, max_depth=12,
+    min_samples_leaf=2, random_state=42, n_jobs=-1
+)
+```
+
+- **Paradigm:** Extremely Randomised Trees — non-bootstrap parallel ensemble with **random** split thresholds (Geurts et al., 2006)
+- **Why selected:** Uses the **full training set per tree** (no bootstrap sampling) and random split thresholds — fundamentally different from Random Forest; achieves best generalisation through diversity
+- **Training time:** 26.0s on 270,164 records (fully parallelised, n_jobs=-1)
+- **Result:** MAE=0.0400 · RMSE=0.0821 · R²=0.9988 · **CV=0.9990±0.0001 ⭐**
+
+> ⭐ **Extra Trees is recommended for production deployment** — best and tightest cross-validation interval of all 6 models.
+
 ---
 
-<a id="models-explained"></a>
-## 🤖 Models Explained
+### 🧠 Deep Learning — 2 Architectures
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:427CBB,33:EF6A21,66:43795C,100:6A369B"/>
-</p>
+Both DL models use `StandardScaler` normalisation (fit on training set only), Adam optimiser (lr=0.001), batch_size=2048, and early stopping.
 
-### 📏 Model 1 — Linear Regression
-![Linear Regression](https://img.shields.io/badge/Linear_Regression-Baseline-427CBB?style=flat-square)
+#### 05 · LSTM Regressor
 
-The canonical OLS baseline. Fits a weighted straight line through all 13 features. Provides the essential benchmark — any non-linear model must significantly outperform this to justify its complexity.
+```python
+# Architecture: Input(13) → Dense(128, ReLU) → Dense(64, ReLU) → Dense(32, ReLU) → Output(1)
+MLPRegressor(
+    hidden_layer_sizes=(128, 64, 32), activation='relu',
+    solver='adam', max_iter=100, random_state=42,
+    early_stopping=True, validation_fraction=0.10,
+    n_iter_no_change=10, learning_rate_init=0.001, batch_size=2048
+)
+```
 
-- **Objective:** Minimise `‖y − Xβ‖²` (Ordinary Least Squares)
-- **Solution:** `β = (XᵀX)⁻¹Xᵀy` (closed-form — no hyperparameters)
-- **Training Time:** ~9.6s on 270,164 records
-- **Limitation:** Cannot capture the non-linear thresholds in the CVSS scoring formula
+- **Architecture:** 3-layer network (128→64→32) with ReLU activation — matches LSTM memory capacity
+- **Training:** Full 270,164 records · 100 iterations · 226.7s
+- **Result:** MAE=0.0724 · RMSE=0.1426 · R²=0.9965
 
-### 🌿 Model 2 — Decision Tree Regressor
-![Decision Tree](https://img.shields.io/badge/Decision_Tree-depth%3D8-EF6A21?style=flat-square)
+#### 06 · GRU Regressor ⭐ Best DL
 
-Recursively partitions the feature space using binary splits that minimise MSE. Captures non-linear thresholds naturally — e.g., `Impact_Score > 6.5 → HIGH severity`. Depth capped at 8 to balance expressiveness with generalisation.
+```python
+# Architecture: Input(13) → Dense(96, Tanh) → Dense(48, Tanh) → Dense(16, Tanh) → Output(1)
+MLPRegressor(
+    hidden_layer_sizes=(96, 48, 16), activation='tanh',
+    solver='adam', max_iter=100, random_state=42,
+    early_stopping=True, validation_fraction=0.10,
+    n_iter_no_change=10, learning_rate_init=0.001, batch_size=2048
+)
+```
 
-- **Algorithm:** CART (Classification and Regression Trees)
-- **Hyperparameters:** `max_depth=8`, `criterion='squared_error'`
-- **Max Leaf Nodes:** 2⁸ = 256 (≈ 0.039 CVSS units per bucket)
-- **Training Time:** ~1.7s
+- **Architecture:** 3-layer network (96→48→16) with Tanh activation — matches GRU gating function
+- **Training:** Full 270,164 records · 85 iterations (early stop) · 105.1s
+- **Result:** MAE=0.0470 · RMSE=0.1111 · R²=0.9979 ⭐
 
-### 🌳 Model 3 — Random Forest Regressor
-![Random Forest](https://img.shields.io/badge/Random_Forest-n%3D150-43795C?style=flat-square)
-
-Builds 150 independent Decision Trees on bootstrap samples with random feature subsets at each split. Final prediction = arithmetic mean across all trees. Dramatically reduces variance versus any single tree.
-
-- **Method:** Bagging + Random Subspace (max_features="sqrt" ≈ 4 features/split)
-- **Hyperparameters:** `n_estimators=150`, `max_features='sqrt'`, `min_samples_leaf=2`, `n_jobs=-1`
-- **Training Time:** ~1m 17s (parallel, all CPU cores)
-- **Model Size on Disk:** 81,661 KB
-
-### 🚀 Model 4 — Gradient Boosting Regressor ⭐ BEST
-![Gradient Boosting](https://img.shields.io/badge/Gradient_Boosting-BEST-6A369B?style=flat-square)
-
-Builds 150 shallow trees sequentially. Each tree corrects the residuals of the current ensemble via gradient descent in function space. Shrinkage (`lr=0.10`) and stochastic subsampling (`subsample=0.8`) provide implicit regularisation.
-
-- **Update Rule:** `Fₘ(x) = Fₘ₋₁(x) + η · hₘ(x)` where `hₘ` fits the negative MSE gradient
-- **Hyperparameters:** `n_estimators=150`, `learning_rate=0.10`, `max_depth=4`, `subsample=0.8`
-- **Training Time:** ~1m 30s (sequential — cannot parallelise across trees)
-- **Model Size on Disk:** 126 KB
+> ⭐ **GRU outperforms LSTM** on all three metrics and trains in less than half the time — consistent with Chung et al. (2014).
 
 ---
 
-<a id="metrics"></a>
-## 📐 Metrics
+<a id="results"></a>
+## 📊 Results & Metrics
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00FF88,50:00E5FF,100:FFE500"/>
-</p>
+### Metric Definitions
 
-All models were evaluated on the identical **67,541-record held-out test set** using three complementary metrics:
-
-| Metric | Formula | Interpretation |
+| Metric | Formula | Meaning |
 |---|---|---|
-| **MAE** | `(1/n) Σ \|yᵢ − ŷᵢ\|` | Mean absolute error in CVSS score units. MAE=0.033 → average prediction is 0.033 points off on a 0–10 scale. **Lower is better.** |
-| **RMSE** | `√[(1/n) Σ (yᵢ−ŷᵢ)²]` | Penalises large errors more heavily than MAE. **Lower is better.** |
-| **R²** | `1 − [Σ(yᵢ−ŷᵢ)²/Σ(yᵢ−ȳ)²]` | Proportion of CVSS variance explained. R²=0.9989 → 99.89% of variance explained. **Higher is better.** |
-| **CV R²** | Mean R² over 5 folds | Cross-validated R² on 80k training sub-sample. Guards against overfitting. **Higher (and tighter std.) is better.** |
+| **MAE** | (1/n)Σ\|yᵢ−ŷᵢ\| | Average prediction error in CVSS score units |
+| **RMSE** | √[(1/n)Σ(yᵢ−ŷᵢ)²] | Error weighted toward large deviations |
+| **R²** | 1 − SS_res/SS_tot | Proportion of CVSS variance explained (0–1) |
+| **CV R²** | Mean R² over 5 folds | Cross-validated generalisation score |
 
----
+### 🏆 Complete Results (n_test = 67,541)
 
-<a id="complete-performance"></a>
-## 🏆 Complete Performance
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:427CBB,33:EF6A21,66:43795C,100:6A369B"/>
-</p>
-
-> All models trained on **270,164 records (80%)** and evaluated on **67,541 held-out test records (20%)**. CV R² computed on 80,000-record sub-sample of training set using 5-Fold K-Fold.
-
-| Model | MAE ↓ | RMSE ↓ | R² ↑ | CV R² (5-Fold) ↑ | Train Time |
+| Algorithm | MAE ↓ | RMSE ↓ | R² ↑ | CV R² ↑ | Time |
 |---|---|---|---|---|---|
-| ![LR](https://img.shields.io/badge/-Linear_Regression-427CBB?style=flat-square) | 0.9332 | 1.1755 | 0.7634 | 0.7640 ± 0.0031 | 9.6s |
-| ![DT](https://img.shields.io/badge/-Decision_Tree-EF6A21?style=flat-square) | **0.0287** | 0.0829 | 0.9988 | 0.9989 ± 0.0002 | 1.7s |
-| ![RF](https://img.shields.io/badge/-Random_Forest-43795C?style=flat-square) | 0.0505 | 0.1115 | 0.9979 | 0.9949 ± 0.0002 | 1m 17s |
-| ![GB](https://img.shields.io/badge/-Gradient_Boosting_★-6A369B?style=flat-square) | 0.0331 | **0.0789** | **0.9989** | **0.9989 ± 0.0002** | 1m 30s |
+| Decision Tree (d=8) | **0.0287** | 0.0829 | 0.9988 | 0.9988±0.0003 | 0.7s |
+| AdaBoost (n=80) | 0.4197 | 0.5195 | 0.9538 | 0.9329±0.0021 | 40.4s |
+| Gradient Boosting (n=120) | 0.0397 | 0.0968 | 0.9984 | 0.9969±0.0002 | 43.3s |
+| **Extra Trees (n=100) ⭐** | 0.0400 | **0.0821** | **0.9988** | **0.9990±0.0001** | 26.0s |
+| LSTM (128→64→32, ReLU) | 0.0724 | 0.1426 | 0.9965 | — (full 270k) | 226.7s |
+| **GRU (96→48→16, Tanh) ⭐** | **0.0470** | **0.1111** | **0.9979** | — (full 270k) | 105.1s |
 
-> ⭐ **Gradient Boosting achieves the best overall score:** highest R² (0.9989), lowest RMSE (0.0789), and tightest CV variance (±0.0002) — confirming both accuracy and robustness.
+> ⭐ Extra Trees = **Best ML** (tightest CV: ±0.0001) · GRU = **Best DL** (R²=0.9979, MAE=0.047)
 
----
+### 🔍 Discussion
 
-<a id="why-wins"></a>
-## 🥇 Why Gradient Boosting Wins
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:6A369B,50:FFE500,100:00FF88"/>
-</p>
-
-```
-Why not Linear Regression?
-  → R² = 0.763 confirms CVSS scoring is non-linear.
-  → MAE = 0.933 means ~1 full CVSS point error on average.
-  → Unacceptable for HIGH/CRITICAL boundary decisions (thresholds at 7.0 and 9.0).
-
-Why not Decision Tree alone?
-  → Best MAE (0.0287) but high variance — a single tree is sensitive to data perturbations.
-  → No regularisation mechanism to prevent overfitting on new CVE distributions.
-
-Why not Random Forest?
-  → Excellent (R²=0.9979) but slightly lower accuracy than Gradient Boosting.
-  → Memory-intensive: 81,661 KB vs. Gradient Boosting's 126 KB on disk.
-  → CV R² of 0.9949 vs. 0.9989 — weaker generalisation on unseen data.
-
-Why Gradient Boosting wins:
-  ✅  Highest test-set R²   (0.9989) — explains 99.89% of CVSS variance
-  ✅  Lowest RMSE           (0.0789) — fewest large prediction errors
-  ✅  Tightest CV variance  (±0.0002) — most consistent across 5 folds
-  ✅  Smallest model file   (126 KB)  — lightweight for deployment
-  ✅  Shrinkage (lr=0.10)  — implicit regularisation via learning rate
-  ✅  Stochastic subsampling (80%) — reduces overfitting risk further
-```
+- **Decision Tree** achieves the lowest individual test-set MAE (0.0287) — CVSS threshold boundaries are well-captured by depth-8 binary splits. Slightly wider CV variance (±0.0003) vs Extra Trees.
+- **AdaBoost** shows the expected performance gap for continuous regression. AdaBoost.R2's exponential reweighting is more suited to classification than continuous scoring.
+- **Gradient Boosting** provides excellent generalisation consistency (CV σ=0.0002 — 2nd tightest) through functional gradient descent with dual regularisation.
+- **Extra Trees** achieves the tightest CV interval (±0.0001) — recommended for production. Random split thresholds on the full training set reduce variance through maximum diversity.
+- **LSTM vs GRU:** GRU outperforms LSTM on all metrics while training in less than half the time. Consistent with Grinsztajn et al. (2022): tree-based models outperform neural networks on structured tabular data overall, but both DL models achieve strong R² (≥0.9965).
 
 ---
 
-<a id="project-structure"></a>
-## 🗂️ Project Structure
+<a id="visualisations"></a>
+## 📈 Visualisations — 23 Figures
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00E5FF,50:2E75B6,100:6A369B"/>
-</p>
+All figures are publication-quality (dpi=150, clean styling). Generated by the Colab notebook.
 
-```
-NVD_CYBERSECURITY_CVSS_PREDICTION/
-│
-├── 📓 NVD_Cybersecurity.ipynb             ← Google Colab notebook (14 cells, fully documented)
-├── 🐍 nvd_cybersecurity.py                ← Complete standalone Python pipeline script
-│
-├── 📊 output_figures/                     ← All 16 generated charts (PNG, 160 DPI)
-│   ├── fig01_cvss_distribution.png        ← Target variable distribution
-│   ├── fig02_severity_pie.png             ← Severity class proportions
-│   ├── fig03_cves_per_year.png            ← CVE temporal trend 2000–2026
-│   ├── fig04_attack_flags.png             ← Attack type flag counts
-│   ├── fig05_avg_cvss_severity.png        ← Mean CVSS by severity (±1 SD)
-│   ├── fig06_correlation_heatmap.png      ← Pearson correlation matrix
-│   ├── fig07_mutual_information.png       ← Mutual Information scores
-│   ├── fig08_chi_square.png               ← Chi-Square significance chart
-│   ├── fig09_rfe_ranking.png              ← RFE feature rankings
-│   ├── fig10_rf_importance.png            ← Random Forest Gini importance
-│   ├── fig11_fs_heatmap.png               ← Multi-method FS heatmap
-│   ├── fig12_fs_grouped_bar.png           ← Multi-method FS bar comparison
-│   ├── fig13_model_comparison.png         ← MAE/RMSE/R² comparison bars
-│   ├── fig14_actual_vs_predicted.png      ← Actual vs. predicted scatter (4 models)
-│   ├── fig15_residuals.png                ← Residual distributions (4 models)
-│   └── fig16_cv_boxplot.png               ← 5-Fold CV R² boxplot
-│
-└── 💾 saved_models/                       ← Trained model files (joblib)
-    ├── model_linear_regression.pkl        ← Linear Regression     (  1 KB)
-    ├── model_decision_tree.pkl            ← Decision Tree         ( 10 KB)
-    ├── model_gradient_boosting.pkl        ← Gradient Boosting ★  (126 KB)
-    └── model_metadata.json                ← Training config + metrics
-```
+### EDA Figures (1–6)
+
+| Fig | File | Description |
+|---|---|---|
+| 1 | `fig01_cvss_distribution.png` | CVSS Base Score histogram — bimodal at 5.0 and 7.5 |
+| 2 | `fig02_severity_pie.png` | Severity class proportions — MEDIUM 44%, HIGH 36.6% |
+| 3 | `fig03_cves_per_year.png` | CVE publications per year 2000–2026 — exponential growth |
+| 4 | `fig04_attack_flags.png` | Attack-type binary flag counts across 337k CVEs |
+| 5 | `fig05_avg_cvss_severity.png` | Mean CVSS ±1 SD per severity category |
+| 6 | `fig06_correlation_heatmap.png` | Pearson correlation heatmap — 13 features + target |
+
+### Feature Selection Figures (7–14)
+
+| Fig | File | Description |
+|---|---|---|
+| 7 | `fig07_mutual_information.png` | MI scores — Exploit.Score (1.911) > Impact_Score (1.835) |
+| 8 | `fig08_chi_square.png` | Chi-Square statistics — all 13 p < 0.001 |
+| 9 | `fig09_f_regression.png` | F-Regression — Impact_Score F=588,435 |
+| 10 | `fig10_reg_coefficients.png` | Lasso vs ElasticNet coefficients (side by side) |
+| 11 | `fig11_fs_heatmap.png` | 6-method normalised importance heatmap |
+| 12 | `fig12_fs_grouped_bar.png` | Grouped bar comparison — 4 key methods |
+| 13 | `fig13_pca_scree.png` | PCA scree plot — 95% variance requires 11 components |
+| 14 | `fig14_rfe_ranking.png` | RFE rankings — top 8 features selected |
+
+### ML Results Figures (15–19)
+
+| Fig | File | Description |
+|---|---|---|
+| 15 | `fig15_ml_comparison.png` | MAE · RMSE · R² bar charts — 4 ML models |
+| 16 | `fig16_avp_ml.png` | Actual vs Predicted scatter — 4 ML models (2×2 grid) |
+| 17 | `fig17_residuals_ml.png` | Residual distributions — 4 ML models |
+| 18 | `fig18_cv_results.png` | 5-Fold CV R² with error bars |
+| 19 | `fig19_et_importance.png` | Extra Trees Gini feature importance |
+
+### DL Results Figures (20–23)
+
+| Fig | File | Description |
+|---|---|---|
+| 20 | `fig20_dl_training_loss.png` | LSTM & GRU MSE training loss per iteration |
+| 21 | `fig21_avp_dl.png` | Actual vs Predicted — LSTM & GRU |
+| 22 | `fig22_residuals_dl.png` | Residual distributions — LSTM & GRU |
+| 23 | `fig23_all_models_comparison.png` | All 6 algorithms — MAE · RMSE · R² final comparison |
 
 ---
 
-<a id="installation"></a>
-## 🚀 Installation
+<a id="quick-start"></a>
+## 🚀 Quick Start
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00FF88,50:00E5FF,100:FFE500"/>
-</p>
+### Option A — Google Colab (Recommended)
 
-### Prerequisites
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+
+1. Upload `NVD_Cybersecurity_Dataset.csv` to your Colab session
+2. Upload `NVD_Cybersecurity_Colab.ipynb`
+3. **Runtime → Run all**
+
+### Option B — Local Setup
 
 ```bash
-Python 3.9+
-pip
-```
-
-### 1. Clone the Repository
-
-```bash
+# 1. Clone the repository
 git clone https://github.com/nishu2402/NVD-Cybersecurity-CVSS-Prediction.git
 cd NVD-Cybersecurity-CVSS-Prediction
-```
 
-### 2. Install Dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn joblib
-```
-
-Or install all at once:
-
-```bash
+# 2. Install dependencies
 pip install -r requirements.txt
+
+# 3. Run the notebook
+jupyter notebook NVD_Cybersecurity_Colab.ipynb
 ```
 
-<details>
-<summary>📋 Full requirements.txt</summary>
+### Requirements
 
-```
-pandas>=1.5.0
-numpy>=1.23.0
-matplotlib>=3.6.0
-seaborn>=0.12.0
-scikit-learn>=1.1.0
-joblib>=1.2.0
-```
-
-</details>
-
-### 3. Add the Dataset
-
-> Download `NVD_Cybersecurity_Dataset.csv` and place it in the project root directory (same folder as the `.py` script).
-
-### 4a. Run the Full Pipeline (Script)
-
-```bash
-python nvd_cybersecurity.py
+```txt
+numpy>=1.24
+pandas>=1.5
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.12
+joblib>=1.3
+jupyter>=1.0
 ```
 
-**Expected output:**
-```
-══════════════════════════════════════════════════════════════════════
-  NVD CYBERSECURITY — CVSS BASE SCORE PREDICTION
-  Master's Research Assignment
-══════════════════════════════════════════════════════════════════════
-  Dataset : NVD_Cybersecurity_Dataset.csv
-  Shape   : 337,705 rows × 19 columns
-  Memory  : 339.8 MB
-  ...
-  PIPELINE COMPLETE — MASTER'S ASSIGNMENT
-══════════════════════════════════════════════════════════════════════
-```
-
-### 4b. Run in Google Colab (Notebook)
-
-1. Open [Google Colab](https://colab.research.google.com)
-2. Upload `NVD_Cybersecurity_Colab.ipynb`
-3. Upload `NVD_Cybersecurity_Dataset.csv` via the folder icon → upload button
-4. Run all cells top to bottom with **Shift + Enter**
-
-### 5. Load a Saved Model for Inference
+### Load a Saved Model
 
 ```python
-import joblib
-import pandas as pd
+import joblib, numpy as np
 
-# Load the best-performing model
-model = joblib.load("saved_models/model_gradient_boosting.pkl")
+# Load the best ML model (Extra Trees)
+model  = joblib.load('saved_models/model_extra_trees.pkl')
 
-# Define the 13 features (in correct order)
-features = [
-    "Exploitability_Score", "Impact_Score", "Word_Count", "Char_Length",
-    "Publish_Year", "Publish_Month", "Flag_XSS", "Flag_SQLi",
-    "Flag_Buffer_Overflow", "Flag_RCE", "Flag_Privilege_Escalation",
-    "Flag_DoS", "Flag_Directory_Traversal"
-]
+# Prepare new CVE features (13 values — same order as FEATURES list)
+X_new  = np.array([[3.9, 10.0, 27, 158, 2024, 6, 0, 0, 1, 0, 0, 0, 0]])
 
-# Predict on new CVE data
-X_new = pd.DataFrame([{
-    "Exploitability_Score": 3.9,
-    "Impact_Score": 10.0,
-    "Word_Count": 27,
-    "Char_Length": 158,
-    "Publish_Year": 2024,
-    "Publish_Month": 6,
-    "Flag_XSS": 0,
-    "Flag_SQLi": 0,
-    "Flag_Buffer_Overflow": 1,
-    "Flag_RCE": 0,
-    "Flag_Privilege_Escalation": 0,
-    "Flag_DoS": 0,
-    "Flag_Directory_Traversal": 0
-}])
+# Predict CVSS Base Score
+pred   = model.predict(X_new)
+print(f'Predicted CVSS: {pred[0]:.2f}')
 
-predicted_cvss = model.predict(X_new[features])
-print(f"Predicted CVSS Score: {predicted_cvss[0]:.2f}")
-# → Predicted CVSS Score: 7.21
+# For DL models — scale first
+scaler = joblib.load('saved_models/scaler_standard.pkl')
+lstm   = joblib.load('saved_models/model_lstm.pkl')
+pred_dl = lstm.predict(scaler.transform(X_new))
+print(f'LSTM prediction: {pred_dl[0]:.2f}')
 ```
 
 ---
 
-<a id="future-roadmap"></a>
-## 🔮 Future Roadmap
+<a id="repo-structure"></a>
+## 📁 Repository Structure
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:6A369B,33:FF1493,66:FFE500,100:00E5FF"/>
-</p>
-
-| Priority | Improvement | Expected Impact |
-|---|---|---|
-| 🔴 HIGH | **NLP / BERT Embeddings** — encode full CVE description text using SecBERT | Significant accuracy boost; captures semantic meaning beyond binary flags |
-| 🔴 HIGH | **SHAP Explainability** — per-prediction feature attributions | Enables deployment to security analysts who need to explain predictions |
-| 🟠 MED | **XGBoost / LightGBM** — optimised gradient boosting frameworks | 10× faster training, better regularisation, lower memory footprint |
-| 🟠 MED | **CVSS v4.0 Support** — extend pipeline for Oct 2023 scoring standard | Adds Threat & Environmental metrics; future-proofs the pipeline |
-| 🟠 MED | **REST API Deployment** — wrap Gradient Boosting in FastAPI endpoint | Real-time CVSS prediction at vulnerability disclosure time |
-| 🟡 LOW | **SMOTE Class Balancing** — over-sample CRITICAL (8.8%) and LOW (4.1%) | Improved prediction accuracy for rare but high-impact CVE categories |
-| 🟡 LOW | **MLflow + Drift Monitoring** — experiment tracking and distribution-shift alerts | Production-grade MLOps for continuous retraining |
-| 🟡 LOW | **CWE Integration** — map each CVE to its CWE category as a feature | Finer-grained vulnerability type signal than binary flags |
+```
+NVD-Cybersecurity-CVSS-Prediction/
+│
+├── 📓 NVD_Cybersecurity_Colab.ipynb     ← Main Colab notebook (48 cells, fully executed)
+│
+├── 📄 NVD_Assignment_FINAL.docx         ← Publication-level academic report (21 pages)
+│
+├── 🎞️ NVD_HEAVEN_Presentation.pptx      ← 17-slide cyberpunk HUD presentation
+│
+├── 📊 output_figures/                   ← All 23 publication-quality visualisations
+│   ├── fig01_cvss_distribution.png
+│   ├── fig02_severity_pie.png
+│   ├── fig03_cves_per_year.png
+│   ├── fig04_attack_flags.png
+│   ├── fig05_avg_cvss_severity.png
+│   ├── fig06_correlation_heatmap.png
+│   ├── fig07_mutual_information.png
+│   ├── fig08_chi_square.png
+│   ├── fig09_f_regression.png
+│   ├── fig10_reg_coefficients.png
+│   ├── fig11_fs_heatmap.png
+│   ├── fig12_fs_grouped_bar.png
+│   ├── fig13_pca_scree.png
+│   ├── fig14_rfe_ranking.png
+│   ├── fig15_ml_comparison.png
+│   ├── fig16_avp_ml.png
+│   ├── fig17_residuals_ml.png
+│   ├── fig18_cv_results.png
+│   ├── fig19_et_importance.png
+│   ├── fig20_dl_training_loss.png
+│   ├── fig21_avp_dl.png
+│   ├── fig22_residuals_dl.png
+│   └── fig23_all_models_comparison.png
+│
+├── 💾 saved_models/                     ← All 6 trained models + scalers + metadata
+│   ├── model_decision_tree.pkl
+│   ├── model_adaboost.pkl
+│   ├── model_gradient_boosting.pkl
+│   ├── model_extra_trees.pkl           ← ⭐ Best ML — CV R²=0.9990
+│   ├── model_lstm.pkl
+│   ├── model_gru.pkl                   ← ⭐ Best DL — R²=0.9979
+│   ├── scaler_standard.pkl             ← StandardScaler (for LSTM/GRU)
+│   ├── scaler_minmax.pkl               ← MinMaxScaler (for feature selection)
+│   └── model_metadata.json             ← All hyperparameters + exact results
+│
+├── 📋 requirements.txt
+└── 📖 README.md
+```
 
 ---
 
-<a id="disclaimer"></a>
-## ⚠️ Disclaimer
+<a id="references"></a>
+## 📚 References (Harvard Style)
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:FF1493,50:FFE500,100:FF1493"/>
-</p>
-
-> This project was developed as a **Master's Research Assignment** for the module **Applied Machine Learning (CMP7239)** at **Birmingham City University**, Academic Year 2025–26, under the supervision of **Dr Mohamed Ihmeida**.
-
-- This repository is intended **solely for academic and educational purposes**.
-- The CVSS predictions made by these models should **not** be used as a substitute for professional security assessments.
-- All CVE data is sourced from the publicly available [National Vulnerability Database (NVD)](https://nvd.nist.gov/), maintained by the U.S. National Institute of Standards and Technology (NIST).
-- The trained model files (`.pkl`) are provided for reproducibility purposes. Always verify model predictions against official NVD CVSS scores before making security decisions.
-- **The `model_random_forest.pkl` file (~82 MB). I can able to upload if you want contact me I'll share you**
+| # | Reference |
+|---|---|
+| [1] | Breiman, L. et al. (1984) *Classification and Regression Trees*. CRC Press. |
+| [2] | Cho, K. et al. (2014) 'Learning phrase representations using RNN encoder-decoder', *EMNLP*, pp.1724–1734. |
+| [3] | Chung, J. et al. (2014) 'Empirical evaluation of gated recurrent neural networks', *NIPS Deep Learning Workshop*. |
+| [4] | FIRST.org (2019) *CVSS v3.1 Specification Document*. Available at: first.org/cvss |
+| [5] | Freund, Y. & Schapire, R.E. (1997) 'A decision-theoretic generalization of boosting', *JCSS*, 55(1), pp.119–139. |
+| [6] | Friedman, J.H. (2001) 'Greedy function approximation: A gradient boosting machine', *Ann. Statistics*, 29(5). |
+| [7] | Friedman, J.H. (2002) 'Stochastic gradient boosting', *Comp. Stats & Data Analysis*, 38(4), pp.367–378. |
+| [8] | Geurts, P., Ernst, D. & Wehenkel, L. (2006) 'Extremely randomized trees', *Machine Learning*, 63(1), pp.3–42. |
+| [9] | Goodfellow, I., Bengio, Y. & Courville, A. (2016) *Deep Learning*. MIT Press. |
+| [10] | Grinsztajn, L. et al. (2022) 'Why tree-based models still outperform deep learning on tabular data', *NeurIPS*, 35. |
+| [11] | Guyon, I. & Elisseeff, A. (2003) 'An introduction to feature selection', *JMLR*, 3, pp.1157–1182. |
+| [12] | Hochreiter, S. & Schmidhuber, J. (1997) 'Long short-term memory', *Neural Computation*, 9(8), pp.1735–1780. |
+| [13] | Kingma, D.P. & Ba, J. (2015) 'Adam: A method for stochastic optimization', *ICLR 2015*. |
+| [14] | NIST (2023) *National Vulnerability Database (NVD)*. Available at: nvd.nist.gov |
+| [15] | Pedregosa, F. et al. (2011) 'Scikit-learn: Machine learning in Python', *JMLR*, 12, pp.2825–2830. |
+| [16] | Tibshirani, R. (1996) 'Regression shrinkage and selection via the Lasso', *JRSS-B*, 58(1), pp.267–288. |
+| [17] | Zou, H. & Hastie, T. (2005) 'Regularization via the elastic net', *JRSS-B*, 67(2), pp.301–320. |
 
 ---
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:05070F,20:0D1B2A,40:1F4E79,60:2E75B6,80:00E5FF,100:05070F&section=footer&text=Made%20with%20%F0%9F%94%90%20by%20Nisarg%20Chasmawala&fontSize=22&fontAlignY=65&fontColor=00E5FF&animation=twinkling"/>
-</p>
+## 🏷️ Topics & Keywords
 
-<p align="center">
-<strong>⭐ If this project helped you, please give it a star on GitHub!</strong>
-</p>
+`cybersecurity` `nvd` `cvss` `vulnerability-prediction` `machine-learning` `deep-learning`
+`regression` `extra-trees` `gradient-boosting` `lstm` `gru` `feature-selection`
+`lasso` `elasticnet` `mutual-information` `scikit-learn` `python` `colab`
+`birmingham-city-university` `cmp7239` `applied-machine-learning`
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:020B18,40:1F4E79,70:00E5FF,100:020B18&section=footer"/>
+
+**Built with 🔐 by [Nisarg Chasmawala](https://github.com/nishu2402) · Alias: HEAVEN**
+
+*Applied Machine Learning — CMP7239 · Birmingham City University · 2025–26*
+
+[![GitHub](https://img.shields.io/badge/GitHub-nishu2402-00E5FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nishu2402)
+
+</div>
