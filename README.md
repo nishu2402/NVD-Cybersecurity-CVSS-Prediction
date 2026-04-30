@@ -483,10 +483,10 @@ NVD_CYBERSECURITY_CVSS_PREDICTION/
 │   ├── fig17_residuals_ml.png             ← Residual distributions — 4 ML models
 │   ├── fig18_cv_results.png               ← 5-Fold CV R² with error bars
 │   ├── fig19_et_importance.png            ← Extra Trees Gini feature importance
-│   ├──fig20_dl_training_loss.png     ← LSTM & GRU MSE loss per iteration
-│   ├──fig21_avp_dl.png               ← Actual vs Predicted — LSTM & GRU
-│   ├──fig22_residuals_dl.png         ← Residual distributions — LSTM & GRU
-│   ├──fig23_all_models_comparison.png← All 6 algorithms — MAE · RMSE · R² final
+│   ├──fig20_dl_training_loss.png          ← LSTM & GRU MSE loss per iteration
+│   ├──fig21_avp_dl.png                    ← Actual vs Predicted — LSTM & GRU
+│   ├──fig22_residuals_dl.png              ← Residual distributions — LSTM & GRU
+│   ├──fig23_all_models_comparison.png     ← All 6 algorithms — MAE · RMSE · R² final
 │
 └── 💾 saved_models/                       ← All 6 trained models + scalers + metadata
     │
