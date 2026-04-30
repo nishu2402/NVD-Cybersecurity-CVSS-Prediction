@@ -60,7 +60,6 @@
 | 📍 **Location** | England, UK |
 | 🔗 **LinkedIn** | [linkedin.com/in/nisarg-chasmawala](https://www.linkedin.com/in/nisarg-chasmawala) |
 | 🐙 **GitHub** | [github.com/nishu2402](https://github.com/nishu2402) |
-| 🎯 **Alias** | HEAVEN · Ethical Hacking & Offensive Security Research |
 
 </div>
 
